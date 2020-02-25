@@ -1,0 +1,82 @@
+.mybox{
+    
+border: 1px solid #b3b3b3;
+    
+margin:10px;
+
+}
+
+
+.btnread{
+text-decoration: none;
+     display: inline-block;
+  border-radius: 4px;
+  background-color: #013559;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px;
+    margin-left:60px; 
+}
+
+
+.lineread{
+    width: 50%;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.pararead{
+    text-align: auto;
+    text-decoration-color:gray;
+    padding-left: 30px;
+}
+
+
+.gridview{
+    
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    
+}
+
+
+.um{
+    
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;    
+}
+
+.um a{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+  
+    
+}
+
+.um a:hover{
+ 
+
+    
+}
+
+.um-main:hover .um{
+    display: block;
+}
+
